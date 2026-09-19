@@ -1,0 +1,13 @@
+case,grid,obstacles_%,algorithm,path_found,steps,expanded_nodes,expanded_density_%,runtime_ms
+Small_10x10_low,10x10,20,Dijkstra,True,18,85,100.0,0.363
+Small_10x10_low,10x10,20,A*,True,18,75,88.2,0.322
+Small_10x10_high,10x10,30,Dijkstra,True,18,67,90.5,0.587
+Small_10x10_high,10x10,30,A*,True,18,46,62.2,0.454
+Medium_30x30_low,30x30,20,Dijkstra,True,58,731,99.6,5.539
+Medium_30x30_low,30x30,20,A*,True,58,480,65.4,4.12
+Medium_30x30_high,30x30,30,Dijkstra,True,58,618,97.5,4.783
+Medium_30x30_high,30x30,30,A*,True,58,398,62.8,3.532
+Large_60x60_low,60x60,20,Dijkstra,True,118,2874,99.9,16.815
+Large_60x60_low,60x60,20,A*,True,118,1762,61.2,8.63
+Large_60x60_high,60x60,30,Dijkstra,True,128,2465,98.1,11.019
+Large_60x60_high,60x60,30,A*,True,128,2118,84.3,9.989
